@@ -5,3 +5,7 @@ module.exports.addNote = () => {
     console.log('addNote called...');
     return 'New note';
 };
+
+module.exports.add = (x,y) => {
+    return x + y;
+};
